@@ -116,6 +116,7 @@ int number=sc.nextInt();
       break;     
   default:
       System.out.println("No program");
+      break;
   }                    
 }
 }  

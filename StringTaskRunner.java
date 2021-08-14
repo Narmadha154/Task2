@@ -110,8 +110,9 @@ int number=sc.nextInt();
       System.out.println("Two strings are equal:"+checkString);
       break;   
   case 20:
-     String str16=getMultipleString();
-      String noSpaceString=StringTask.noSpace(str16);
+      String str16=getMultipleString();
+      String noSpaceString=StringTask.noSpace(str16);     
+      System.out.println("String without space:"+noSpaceString);
       break;     
   default:
       System.out.println("No program");
